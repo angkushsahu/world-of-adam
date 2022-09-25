@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "World of Adam",
+  "short_name": "World-of-Adam",
+  "description": "Adam is the first man on the planet, help him build his world and adapt in order to create a better world for himself",
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,9 +17,34 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
     }
   ],
   "start_url": ".",
+  "id": ".",
+  "scope": ".",
+  "orientation": "any",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
