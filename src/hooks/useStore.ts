@@ -2,7 +2,8 @@ import create from "zustand";
 import { nanoid } from "nanoid";
 import { StateType, CubeType, TextureType } from "../types";
 
-const getFromLocalStorage = (key: string) => JSON.parse(window.localStorage.getItem(key) || "");
+const getFromLocalStorage = (key: string) =>
+	window.localStorage.length ? JSON.parse(window.localStorage.getItem(key) || "") : null;
 const setInLocalStorage = (key: string, value: CubeType[]) =>
 	window.localStorage.setItem(key, JSON.stringify(value));
 
